@@ -1,0 +1,164 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-tvos15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TringtvOSPlayer
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import AVKit
+import CoreMedia
+import DeveloperToolsSupport
+import Foundation
+import GameController
+import GoogleInteractiveMediaAds
+import Swift
+import SwiftUI
+@_exported import TringtvOSPlayer
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol PlayerControllerDelegate : AnyObject {
+  func playerController(state: TringtvOSPlayer.TringPlayerState, _ mediaObject: TringtvOSPlayer.PlayerItem)
+  func playerHeartbeatRate(at currentTime: Foundation.TimeInterval, _ mediaObject: TringtvOSPlayer.PlayerItem)
+  func seekStarted(from startTime: Foundation.TimeInterval, _ mediaObject: TringtvOSPlayer.PlayerItem)
+  func seekCompleted(with seekedDuration: Foundation.TimeInterval, _ mediaObject: TringtvOSPlayer.PlayerItem)
+  func videoTransitionScreenStarted(_ mediaObject: TringtvOSPlayer.PlayerItem)
+  func videoTransitionCompleted(_ mediaObject: TringtvOSPlayer.PlayerItem)
+  func videoPlaybackCompleted(_ mediaObject: TringtvOSPlayer.PlayerItem)
+  func videoPlaybackStarted(_ mediaObject: TringtvOSPlayer.PlayerItem)
+  func videoContentStarted(_ mediaObject: TringtvOSPlayer.PlayerItem)
+  func videoContentCompleted(_ mediaObject: TringtvOSPlayer.PlayerItem)
+}
+public enum TringPlayerState {
+  case buffering
+  case bufferFinished
+  case paused
+  case error
+  case playing
+  case resumed
+  public static func == (a: TringtvOSPlayer.TringPlayerState, b: TringtvOSPlayer.TringPlayerState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class TringPlayerView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var configBuilder: TringtvOSPlayer.ConfigBuilder
+  @_Concurrency.MainActor(unsafe) weak public var playerdelegate: (any TringtvOSPlayer.PlayerControllerDelegate)?
+  @_Concurrency.MainActor(unsafe) open var adContainerController: UIKit.UIViewController?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) open func tringPlayerConfig(items: [TringtvOSPlayer.PlayerItem])
+  @_Concurrency.MainActor(unsafe) open func customPlayerConfig(videoUrl: Swift.String)
+  @_Concurrency.MainActor(unsafe) open func getUIViewController(yourVc: UIKit.UIViewController?)
+  @_Concurrency.MainActor(unsafe) open func addGesturefromController(_ controllerView: UIKit.UIViewController)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func didUpdateFocus(in context: UIKit.UIFocusUpdateContext, with coordinator: UIKit.UIFocusAnimationCoordinator)
+}
+public class TrickPlayParser {
+  public var groups: [TringtvOSPlayer.TrickPlayParser.Group]
+  public struct Group : Swift.CustomStringConvertible {
+    public var description: Swift.String {
+      get
+    }
+  }
+  public init(url: Foundation.URL? = nil, encoding: Swift.String.Encoding? = nil)
+  public init(vttUrl: Foundation.URL, encoding: Swift.String.Encoding? = nil, _ handler: @escaping (Swift.Bool) -> Swift.Void)
+  public func search(time: Foundation.TimeInterval) -> TringtvOSPlayer.TrickPlayParser.Group?
+  @objc deinit
+}
+public class VTTParser {
+  public var groups: [TringtvOSPlayer.VTTParser.Group]
+  public struct Group : Swift.CustomStringConvertible {
+    public var description: Swift.String {
+      get
+    }
+  }
+  public init(url: Foundation.URL? = nil, encoding: Swift.String.Encoding? = nil)
+  public init(vttUrl: Foundation.URL, encoding: Swift.String.Encoding? = nil)
+  public func search(time: Foundation.TimeInterval) -> TringtvOSPlayer.VTTParser.Group?
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class TvOSSlider : UIKit.UIControl {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var value: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var minimumValue: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var maximumValue: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var isContinuous: Swift.Bool
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var minimumTrackTintColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) final public var isFocusedCheck: Swift.Bool
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var maximumTrackTintColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var thumbTintColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var focusScaleFactor: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) final public var stepValue: Swift.Float
+  @_Concurrency.MainActor(unsafe) final public var totalDuration: Swift.Double
+  @_Concurrency.MainActor(unsafe) final public func setValue(_ value: Swift.Float, animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) final public func setMinimumTrackImage(_ image: UIKit.UIImage?, for state: UIKit.UIControl.State)
+  @_Concurrency.MainActor(unsafe) final public func setMaximumTrackImage(_ image: UIKit.UIImage?, for state: UIKit.UIControl.State)
+  @_Concurrency.MainActor(unsafe) final public func setThumbImage(_ image: UIKit.UIImage?, for state: UIKit.UIControl.State)
+  @_Concurrency.MainActor(unsafe) final public var currentMinimumTrackImage: UIKit.UIImage? {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) final public var currentMaximumTrackImage: UIKit.UIImage? {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) final public var currentThumbImage: UIKit.UIImage? {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) final public func minimumTrackImage(for state: UIKit.UIControl.State) -> UIKit.UIImage?
+  @_Concurrency.MainActor(unsafe) final public func maximumTrackImage(for state: UIKit.UIControl.State) -> UIKit.UIImage?
+  @_Concurrency.MainActor(unsafe) final public func thumbImage(for state: UIKit.UIControl.State) -> UIKit.UIImage?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc override final public var isEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override final public var isSelected: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override final public var isHighlighted: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) final public var storedValue: Swift.Float
+  @_Concurrency.MainActor(unsafe) @objc override final public func pressesBegan(_ presses: Swift.Set<UIKit.UIPress>, with event: UIKit.UIPressesEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override final public func didUpdateFocus(in context: UIKit.UIFocusUpdateContext, with coordinator: UIKit.UIFocusAnimationCoordinator)
+}
+extension TringtvOSPlayer.TringPlayerView {
+  @_Concurrency.MainActor(unsafe) public func sliderConfigurations(maximumTintColorCode: Swift.String = "#FFFFFF", minimumTintColorCode: Swift.String = "#FFFFFF")
+}
+public struct ConfigBuilder {
+  public init()
+}
+public struct ContentData {
+}
+public struct PlayerItem {
+  public var movieTitle: Swift.String
+  public var thumbnailImg: Swift.String
+  public var videoUrl: Swift.String
+  public init(movieTitle: Swift.String, thumbnailImg: Swift.String, videoUrl: Swift.String)
+}
+extension TringtvOSPlayer.TringPlayerState : Swift.Equatable {}
+extension TringtvOSPlayer.TringPlayerState : Swift.Hashable {}

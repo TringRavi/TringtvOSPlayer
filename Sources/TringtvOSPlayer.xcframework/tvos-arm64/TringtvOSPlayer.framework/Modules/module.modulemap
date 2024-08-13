@@ -1,0 +1,11 @@
+framework module TringtvOSPlayer {
+  umbrella header "TringtvOSPlayer.h"
+  export *
+
+  module * { export * }
+}
+
+module TringtvOSPlayer.Swift {
+  header "TringtvOSPlayer-Swift.h"
+  requires objc
+}
