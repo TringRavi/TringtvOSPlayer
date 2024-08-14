@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		r8L045kvvW6VBHOI3MHZAIvSwMA=
+		si6wqbcO4UT97m5DKckqu3CLfY0=
 		</data>
 		<key>ComingUpCell.nib</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/TringtvOSPlayer.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		IiBI/jAbjfcR9gpvvTraY4EJSiw=
+		jVzgP6QwZAIijgHwY5juLP3Br+g=
 		</data>
 		<key>Modules/TringtvOSPlayer.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		+nFfanF/tLF/txPUgXEvM3bMPN4=
+		BV9pRUuihdJP11GOWwaKwvhFw5M=
 		</data>
 		<key>Modules/TringtvOSPlayer.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
@@ -46,19 +46,19 @@
 		</data>
 		<key>Modules/TringtvOSPlayer.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		+nFfanF/tLF/txPUgXEvM3bMPN4=
+		BV9pRUuihdJP11GOWwaKwvhFw5M=
 		</data>
 		<key>Modules/TringtvOSPlayer.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		9OPOBj6T2OB7x21zkRsejMyxjDk=
+		jGAzSKLfv5dMsr9lE/q+9q5iuOM=
 		</data>
 		<key>Modules/TringtvOSPlayer.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		IiBI/jAbjfcR9gpvvTraY4EJSiw=
+		jVzgP6QwZAIijgHwY5juLP3Br+g=
 		</data>
 		<key>Modules/TringtvOSPlayer.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		/yLYMdoidZG9HWy5ND7cW+15pZA=
+		c69kxlecep8b066271jWur11SLk=
 		</data>
 		<key>Modules/TringtvOSPlayer.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
@@ -66,11 +66,11 @@
 		</data>
 		<key>Modules/TringtvOSPlayer.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		/yLYMdoidZG9HWy5ND7cW+15pZA=
+		c69kxlecep8b066271jWur11SLk=
 		</data>
 		<key>Modules/TringtvOSPlayer.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		+4P9sq1WrpKJeZf3KRH+5EgpNE8=
+		zXdR6RFxroY8bIVL5Arf+VahXag=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -135,7 +135,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3Kbd/GmD3R1vjWIDmJU5gnHcX9gh+CCSWsHJKxLQyhI=
+			egZWyHugtEBRUEpZHDOE98OXXHfpWI9Zt8BdeSXgKRg=
 			</data>
 		</dict>
 		<key>ComingUpCell.nib</key>
@@ -177,14 +177,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iXVM/L44fuP0IXPi0ghBix20ZuFuQegoY+43XWe44Vw=
+			jZAx6pMT5qC3Enit+PSDSbEfkhez6lVmc4sMp/TAUUY=
 			</data>
 		</dict>
 		<key>Modules/TringtvOSPlayer.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			loNSi82agUVOXh3eBI2qL8FkWa1NgvrVH30gbrj587I=
+			XQgpwj9cg10XpH1+hN8IgL6pzyTOmgNrCQOWjlr1ZFI=
 			</data>
 		</dict>
 		<key>Modules/TringtvOSPlayer.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
@@ -198,28 +198,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			loNSi82agUVOXh3eBI2qL8FkWa1NgvrVH30gbrj587I=
+			XQgpwj9cg10XpH1+hN8IgL6pzyTOmgNrCQOWjlr1ZFI=
 			</data>
 		</dict>
 		<key>Modules/TringtvOSPlayer.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zmjKvpBsphBo0MdbHQzPNAvieVEOGvSrOYzGvm93pCE=
+			UckOm97q6a+p+tSWXP1Kp+iWlYmvmwVHmiDqUNA/WzM=
 			</data>
 		</dict>
 		<key>Modules/TringtvOSPlayer.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iXVM/L44fuP0IXPi0ghBix20ZuFuQegoY+43XWe44Vw=
+			jZAx6pMT5qC3Enit+PSDSbEfkhez6lVmc4sMp/TAUUY=
 			</data>
 		</dict>
 		<key>Modules/TringtvOSPlayer.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			thBZDqir1DJNmGFfbUppMWpOADVaBXs7K5AttKNf/i0=
+			7QU5UmbJXgcLpL2tCLZrEt/cKVtFRSg76tGi6lID0sw=
 			</data>
 		</dict>
 		<key>Modules/TringtvOSPlayer.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
@@ -233,14 +233,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			thBZDqir1DJNmGFfbUppMWpOADVaBXs7K5AttKNf/i0=
+			7QU5UmbJXgcLpL2tCLZrEt/cKVtFRSg76tGi6lID0sw=
 			</data>
 		</dict>
 		<key>Modules/TringtvOSPlayer.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XCnkhk7xYiuTxNnoJ4F6YBRZd4VB1tML4YIxtf8qFkc=
+			YTkMITyIMCM9c5fFgqF4+Je/tAl/tx+ltZwfRUUBnlM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -8,7 +8,6 @@ import CoreMedia
 import DeveloperToolsSupport
 import Foundation
 import GameController
-import GoogleInteractiveMediaAds
 import Swift
 import SwiftUI
 @_exported import TringtvOSPlayer
