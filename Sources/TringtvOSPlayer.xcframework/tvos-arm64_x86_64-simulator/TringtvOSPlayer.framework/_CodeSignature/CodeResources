@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		GRyuAbiLg2xm/BEF6cExLfBlAHY=
+		tbQYDKw0b/AhS8z7ZV2uihzCeB4=
 		</data>
 		<key>ComingUpCell.nib</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/TringtvOSPlayer.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		jVzgP6QwZAIijgHwY5juLP3Br+g=
+		iXaucN7Se7zGtF44onIUAxVy9uU=
 		</data>
 		<key>Modules/TringtvOSPlayer.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/TringtvOSPlayer.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		jGAzSKLfv5dMsr9lE/q+9q5iuOM=
+		Wi7DK6MtJiyw+/QJgJcrVCqwhT4=
 		</data>
 		<key>Modules/TringtvOSPlayer.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		jVzgP6QwZAIijgHwY5juLP3Br+g=
+		iXaucN7Se7zGtF44onIUAxVy9uU=
 		</data>
 		<key>Modules/TringtvOSPlayer.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Modules/TringtvOSPlayer.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		zXdR6RFxroY8bIVL5Arf+VahXag=
+		guMnkvwIlveCrPEfLOyqk7wgH7A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -135,7 +135,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yCllFHpNji7ecVl4eUOCWxX9xcv3L+dVwIt/6Z8Nypo=
+			+bm7jwR+5RIZJ6c15cR+yBVKpLvuGLEFE9o9AlGeJKo=
 			</data>
 		</dict>
 		<key>ComingUpCell.nib</key>
@@ -177,7 +177,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jZAx6pMT5qC3Enit+PSDSbEfkhez6lVmc4sMp/TAUUY=
+			PBiq58Su1uJliJyXFyee+JAgPLmqJeOQIQ4VG06IfDM=
 			</data>
 		</dict>
 		<key>Modules/TringtvOSPlayer.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
@@ -205,14 +205,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UckOm97q6a+p+tSWXP1Kp+iWlYmvmwVHmiDqUNA/WzM=
+			cMmK/tczfuFXBwsbCkkA7HnujP4tCstiXgqNrZt54SI=
 			</data>
 		</dict>
 		<key>Modules/TringtvOSPlayer.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jZAx6pMT5qC3Enit+PSDSbEfkhez6lVmc4sMp/TAUUY=
+			PBiq58Su1uJliJyXFyee+JAgPLmqJeOQIQ4VG06IfDM=
 			</data>
 		</dict>
 		<key>Modules/TringtvOSPlayer.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
@@ -240,7 +240,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YTkMITyIMCM9c5fFgqF4+Je/tAl/tx+ltZwfRUUBnlM=
+			G4zoQKyQmXCLj0RF3YJCklyn2hX5iEPIzupLwRlLXD8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
