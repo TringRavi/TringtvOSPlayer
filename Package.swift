@@ -13,6 +13,9 @@ let package = Package(
         .library(
             name: "TringtvOSPlayer",
             targets: ["TringtvOSPlayer"]),
+    ], dependencies: [
+        .package(url: "https://github.com/googleads/swift-package-manager-google-interactive-media-ads-ios.git", branch: "main")
+
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -21,3 +24,4 @@ let package = Package(
                       path: "./Sources/TringtvOSPlayer.xcframework")
     ]
 )
+//.package(url: "https://github.com/googleads/swift-package-manager-google-interactive-media-ads-ios.git",branch:  "main")
